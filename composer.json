@@ -1,0 +1,26 @@
+{
+    "name": "datagutten/inducks",
+    "description": "Tools to fetch data from Inducks",
+    "type": "library",
+    "require": {
+        "rmccue/requests": "^2.0",
+        "datagutten/tools": "^1.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "datagutten\\Inducks\\": "src/"
+        },
+        "classmap": [
+            "class.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "datagutten",
+            "email": "datagutten@datagutten.net"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
