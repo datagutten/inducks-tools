@@ -1,3 +1,4 @@
 config_db_coa.php
 
 /vendor/
+.env
